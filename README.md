@@ -27,3 +27,5 @@ En ./source_code/myapp está el build.xml que compila/desplega/replega la aplica
   Se puede acceder a http://localhost:8080/hello/ControllerServlet para ver la respuesta de ControllerServlet.java y a http://localhost:8080/hello/mypage.jsp para ver el contenido de la jsp mypage.jsp
 5) ant remove -> eso replega los .class y los .jsp del tomcat
 
+6)ant reload -> permite vovler a compilar y recargar la aplicación en tomcat
+7)ant dist -> construye el archivo war en ./source_code/myapp/dist/
